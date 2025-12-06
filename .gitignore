@@ -1,3 +1,86 @@
 /SyncPad/.vs/
 /SyncPad/bin/
 /SyncPad/obj/
+###############################
+# .NET Core 9 / 10
+###############################
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.log
+*.cache
+*.config
+*.db
+*.mdb
+*.ldf
+*.ndf
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+*.vsp
+*.vspscc
+*_i.c
+*_p.c
+*.tmp_proj
+*.pidb
+*.svclog
+*.scc
+
+# Rider / JetBrains
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# ASP.NET Core
+appsettings.Development.json
+appsettings.Local.json
+
+# Entity Framework
+migrations/ (optional — remove this if you want to commit migrations)
+
+###############################
+# React / Node
+###############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+.next/
+.temp/
+*.tsbuildinfo
+
+###############################
+# General
+###############################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Lock files (optional — keep only one)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
