@@ -1,0 +1,6 @@
+@SyncPad_HostAddress = http://localhost:5145
+
+GET {{SyncPad_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
